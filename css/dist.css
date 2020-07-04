@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+}
+
+.sh2{
+	font-size:1.5em;
+	text-align: center;
+	margin-bottom:0;
+}
+
+.subhead{
+	text-align: center;
+	display: block;
+	font-size:0.8em;
+	opacity: 0.7;
+}
+
+.sdistleft{
+	border: solid 2px black;
+	display: inline-block;
+	height: 300px;
+	width: 25%;
+	margin-left: 5%;
+	float: left;
+}
+
+.sp{
+	display: inline-block;
+	height: 175px;
+	width: 50%;
+	margin-right: 5%;
+	margin-left: 2%;
+	margin-top: 0;
+	overflow: auto;
+	padding-top: 50px;
+	padding-bottom: 75px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: rgba(245,209,66,0.6);
+}
+
+.empty{
+	display: inline-block;
+	height: 175px;
+	float: left;
+	width: 50%;
+	margin-right: 2%;
+	margin-left: 5%;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 75px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	font-size: 25px;
+	background-color: rgba(245,209,66,0.6);
+}
+
+
+.empty ul{
+	list-style: none;
+	margin-top:0;
+}
+
+
+.sdist_img_right{
+	border: solid 2px black;
+	display: inline-block;
+	height: 300px;
+	width: 25%;
+	margin-right: 5%;
+}
+
+@media screen and(max-width: 800px){
+	.sdistleft{
+		border: solid 2px black;
+		display: block;
+		height: 300px;
+		width: 25%;
+		margin-left: 5%;
+		float: left;
+	}
+
+	.sp{
+		display: block;
+		height: 175px;
+		width: 50%;
+		margin-right: 5%;
+		margin-left: 2%;
+		margin-top: 0;
+		overflow: auto;
+		padding-top: 50px;
+		padding-bottom: 75px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+		background-color: rgba(245,209,66,0.6);
+	}
+
+	.empty{
+		display: block;
+		height: 175px;
+		float: left;
+		width: 50%;
+		margin-right: 2%;
+		margin-left: 5%;
+		overflow: hidden;
+		padding-top: 50px;
+		padding-bottom: 75px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+		font-size: 25px;
+		background-color: rgba(245,209,66,0.6);
+	}
+
+
+	.empty ul{
+		list-style: none;
+		margin-top:0;
+	}
+
+
+	.sdist_img_right{
+		border: solid 2px black;
+		display: block;
+		height: 300px;
+		width: 25%;
+		margin-right: 5%;
+	}
+}
