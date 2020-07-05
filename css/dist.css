@@ -37,7 +37,7 @@ body{
 	margin-top: 75px;
 }
 .stext {
-	background-color: rgba(245,209,66,0.6);
+	background-color: rgb(251, 206, 53);
 	padding-bottom: 20px;
 }
 @media (max-width: 992px) {
